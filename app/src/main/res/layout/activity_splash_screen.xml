@@ -17,11 +17,13 @@
         android:src="@drawable/brain"/>
 
     <TextView
+        android:id="@+id/txtView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/creepster"
         android:text="Memory Game"
         android:textAlignment="center"
         android:textSize="48sp"
-        android:textStyle="italic|bold"/>
+        android:textStyle="italic|bold" />
 
 </LinearLayout>
