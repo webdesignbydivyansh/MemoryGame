@@ -148,7 +148,7 @@ class MediumActivity : AppCompatActivity() {
                 alertDialog.show()
             }
             R.id.reset->recreate()
-            R.id.about-> Toast.makeText(this,"This functionality is not available yet!", Toast.LENGTH_SHORT).show()
+            R.id.about-> startActivity(Intent(this,AboutUs::class.java))
         }
         return super.onOptionsItemSelected(item)
     }

@@ -157,7 +157,7 @@ class HardActivity : AppCompatActivity() {
                 alertDialog.show()
             }
             R.id.reset->recreate()
-            R.id.about-> Toast.makeText(this,"About Us!",Toast.LENGTH_SHORT).show()
+            R.id.about-> startActivity(Intent(this,AboutUs::class.java))
         }
         return super.onOptionsItemSelected(item)
     }
